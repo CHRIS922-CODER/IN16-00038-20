@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing:border-box;
+    overflow:hidden;
 }
 .navbar{
 width:100%;
@@ -89,7 +91,7 @@ display:inline-block;
     background-position:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    animation:bg-image 16s ease-in-out infinite;
+    animation:bg-image 30s linear infinite;
     
 }
 @keyframes bg-image {
